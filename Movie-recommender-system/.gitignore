@@ -1,0 +1,63 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pkl
+*.pickle
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Streamlit Cache and Config
+.streamlit/
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store
+Thumbs.db
+.directory
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+*.pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+*.tmp
+*.bak
